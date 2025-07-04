@@ -1,5 +1,4 @@
 import LatestNews from "@/components/LatestNews";
-import Image from "next/image";
 
 export default function Home() {
   return (
