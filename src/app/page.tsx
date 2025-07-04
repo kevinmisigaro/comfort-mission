@@ -1,103 +1,136 @@
+import LatestNews from "@/components/LatestNews";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <>
+      <div
+        className="hero min-h-[80vh]"
+        style={{
+          backgroundImage: "url(/background/pexels-shelaghmurphy-2883380.jpg)",
+        }}
+      >
+        <div className="hero-overlay bg-opacity-60 bg-black/70"></div>
+        <div className="hero-content text-neutral-content">
+          <div className="max-w-md">
+            <div className="bg-white text-black px-5 py-4 text-3xl font-bold mb-5">
+              We want to create a world where love knows no boundaries
+            </div>
+            <div className="bg-[#531f59] text-white p-3 text-medium font-bold">
+              Compassion and support of a United community grounded in Christ.
+            </div>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      </div>
+
+      <div className="p-28 text-center">
+        <div className="text-3xl mb-10">
+          We want to demonstrate the love of God to the world by sharing the
+          Gospel,
+          <br /> and through helping people with their basic needs.
+        </div>
+
+        <div className="underline [text-decoration-color:#531f59] text-2xl">
+          Find out more about us
+        </div>
+      </div>
+
+      <div className="px-20 py-20 bg-[#531f59] text-white">
+        <div className="text-3xl font-bold mb-18">Community Impact</div>
+
+        <div className="stats shadow w-full">
+          <div className="stat">
+            <div className="stat-figure text-secondary">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                className="inline-block h-8 w-8 stroke-current"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                ></path>
+              </svg>
+            </div>
+            <div className="stat-title text-xl font-bold text-gray-300">
+              Total reach
+            </div>
+            <div className="stat-value text-7xl">31K</div>
+          </div>
+
+          <div className="stat">
+            <div className="stat-figure text-secondary">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                className="inline-block h-8 w-8 stroke-current"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"
+                ></path>
+              </svg>
+            </div>
+            <div className="stat-title text-xl font-bold text-gray-300">
+              Women helped
+            </div>
+            <div className="stat-value text-7xl">4,200</div>
+          </div>
+
+          <div className="stat">
+            <div className="stat-figure text-secondary">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                className="inline-block h-8 w-8 stroke-current"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"
+                ></path>
+              </svg>
+            </div>
+            <div className="stat-title text-xl font-bold text-gray-300">
+              New Registers
+            </div>
+            <div className="stat-value text-7xl">1,200</div>
+          </div>
+        </div>
+      </div>
+
+      <div className="p-20">
+        <div className="underline [text-decoration-color:#531f59] text-3xl text-[#531f59] font-bold mb-4">
+          Latest News
+        </div>
+        <LatestNews />
+      </div>
+
+      <div className="p-28 text-center mb-10">
+        <div className="text-4xl">
+          Our organization is based on helping{" "}
+          <span className="underline [text-decoration-color:#531f59] text-[#531f59]">
+            unhoused people, drug addicts, orphans, windows, elders
+          </span>{" "}
+          and{" "}
+          <span className="underline [text-decoration-color:#531f59] text-[#531f59]">
+            disabled people
+          </span>
+          . We do this by providing basic needs through donations.
+        </div>
+      </div>
+
+      <div className="p-10 text-center bg-[#531f59] text-white">
+        <div className="text-3xl font-black">LETS KEEP IN TOUCH</div>
+      </div>
+    </>
   );
 }
