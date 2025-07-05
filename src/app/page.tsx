@@ -1,4 +1,5 @@
 import LatestNews from "@/components/LatestNews";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -106,7 +107,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="p-20">
+      <div className="p-10 md:p-20">
         <div className="underline [text-decoration-color:#531f59] text-3xl text-[#531f59] font-bold mb-4">
           Latest News
         </div>
@@ -128,7 +129,7 @@ export default function Home() {
       </div>
 
       <div className="p-10 text-center bg-[#531f59] text-white">
-        <div className="text-3xl font-black">LETS KEEP IN TOUCH</div>
+        <Link href={"/contact"} className="text-3xl font-black hover:underline">LETS KEEP IN TOUCH</Link>
       </div>
     </>
   );

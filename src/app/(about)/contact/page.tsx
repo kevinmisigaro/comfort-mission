@@ -5,7 +5,7 @@ function Page() {
   return (
     <div>
       <HeroSection title="Contact" />
-      <div className="p-32 text-2xl">
+      <div className="p-10 md:p-32 text-2xl">
         To get in touch, choose the office you want to contact, then click on
         contact in the footer.
         <br />

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 function NewsCard({
@@ -15,9 +16,11 @@ function NewsCard({
           }} />
     </figure>
     <div className="card-body">
+      <Link href={"/article"}>
       <h2 className="card-title hover:underline cursor-pointer">
         {title}
       </h2>
+      </Link>
     </div>
   </div>
   )

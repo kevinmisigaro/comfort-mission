@@ -5,7 +5,7 @@ import React from 'react'
 function Page() {
   return (
     <>
-    <HeroSection title='News' />
+    <HeroSection title='News' image='/images/pexels-pixabay-158651.jpg' />
     <div className='p-20 text-2xl'>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis laboriosam quas ratione placeat iste doloremque error earum deleniti consequuntur beatae? Minima enim officiis fuga pariatur, est cupiditate voluptate aut alias.
     </div>

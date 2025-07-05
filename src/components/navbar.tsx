@@ -35,7 +35,7 @@ function Navbar() {
       </ul>
     </div>
     <div className="navbar-end">
-      <a className="btn text-white bg-[#531f59]">Donate</a>
+      <Link href={"/donate"} className="btn text-white bg-[#531f59]">Donate</Link>
     </div>
   </div>
   )
