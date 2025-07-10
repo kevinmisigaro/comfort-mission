@@ -19,7 +19,7 @@ function Footer() {
         <p>
           Comfort Ministries
           <br />
-          Providing reliable tech since 2024
+          Providing reliable tech since 2025
         </p>
       </aside>
       <nav>
