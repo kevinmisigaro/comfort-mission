@@ -30,9 +30,9 @@ export default function Home() {
           <br /> and through helping people with their basic needs.
         </div>
 
-        <div className="underline [text-decoration-color:#531f59] text-2xl">
+        <Link href={"/contact"} className="underline [text-decoration-color:#531f59] text-2xl">
           Find out more about us
-        </div>
+        </Link>
       </div>
 
       <div className="px-20 py-20 bg-[#531f59] text-white">
