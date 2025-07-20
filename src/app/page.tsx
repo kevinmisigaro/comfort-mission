@@ -7,10 +7,10 @@ export default function Home() {
       <div
         className="hero min-h-[80vh]"
         style={{
-          backgroundImage: "url(/background/pexels-shelaghmurphy-2883380.jpg)",
+          backgroundImage: "url(/new/PHOTO-2025-07-12-03-48-39.jpg)",
         }}
       >
-        <div className="hero-overlay bg-opacity-60 bg-black/70"></div>
+        <div className="hero-overlay bg-opacity-60 bg-black/60"></div>
         <div className="hero-content text-neutral-content">
           <div className="max-w-md">
             <div className="bg-white text-black px-5 py-4 text-3xl font-bold mb-5">
@@ -30,7 +30,10 @@ export default function Home() {
           <br /> and through helping people with their basic needs.
         </div>
 
-        <Link href={"/contact"} className="underline [text-decoration-color:#531f59] text-2xl">
+        <Link
+          href={"/contact"}
+          className="underline [text-decoration-color:#531f59] text-2xl"
+        >
           Find out more about us
         </Link>
       </div>
@@ -114,22 +117,36 @@ export default function Home() {
         <LatestNews />
       </div>
 
-      <div className="p-28 text-center mb-10">
-        <div className="text-4xl">
-          Our organization is based on helping{" "}
-          <span className="underline [text-decoration-color:#531f59] text-[#531f59]">
-            unhoused people, drug addicts, orphans, windows, elders
-          </span>{" "}
-          and{" "}
-          <span className="underline [text-decoration-color:#531f59] text-[#531f59]">
-            disabled people
-          </span>
-          . We do this by providing basic needs through donations.
+      <div className="p-20 text-center mb-10 flex flex-col md:flex-row">
+        <div
+          className="basis-1/2 h-[50vh] bg-top"
+          style={{
+            backgroundImage: `url(/new/PHOTO-2025-07-12-03-48-39.jpg)`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        />
+        <div className="text-3xl basis-1/2 p-5">
+          <div className="mt-12">
+            <p>
+              Our organization is based on helping{" "}
+              <span className="underline [text-decoration-color:#531f59] text-[#531f59]">
+                unhoused people, drug addicts, orphans, windows, elders
+              </span>{" "}
+              and{" "}
+              <span className="underline [text-decoration-color:#531f59] text-[#531f59]">
+                disabled people
+              </span>
+              . We do this by providing basic needs through donations.
+            </p>
+          </div>
         </div>
       </div>
 
       <div className="p-10 text-center bg-[#531f59] text-white">
-        <Link href={"/contact"} className="text-3xl font-black hover:underline">LETS KEEP IN TOUCH</Link>
+        <Link href={"/contact"} className="text-3xl font-black hover:underline">
+          LETS KEEP IN TOUCH
+        </Link>
       </div>
     </>
   );

@@ -15,10 +15,11 @@ function Page() {
         <span className="text-4xl font-black">Bank of America</span>
           <br />
           <br />
-          Account number: 93030893930303
-          <br />
-          Account Name: COMFORT MISSION <br />
-          United States of America
+          Account number: 457052424643
+          <br /><br/>
+          <b>Routing numbers: </b><br/>
+          Paper and Electronic: 122101706<br/>
+          Wires: 026009593
           <br />
         </div>
       </div>

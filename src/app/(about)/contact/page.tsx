@@ -16,20 +16,11 @@ function Page() {
         <span className="text-4xl">Arizona</span>
         <br />
         <br />
-        P.O.Box 32143
+        15452 West Jefferson Street
         <br />
-        Burbank <br />
+        AZ 85338 <br />
         United States of America
         <br />
-        <br /> <br />
-        <span className="text-4xl">Dodoma</span>
-        <br />
-        <br />
-        P.O.Box 32143
-        <br />
-        Dodoma
-        <br />
-        Tanzania
       </div>
     </div>
   );

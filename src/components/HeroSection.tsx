@@ -1,6 +1,6 @@
 import React from "react";
 
-function HeroSection({ title, image = "/background/pexels-shelaghmurphy-2883380.jpg" }: { title: string, image?: string }) {
+function HeroSection({ title, image = "/new/PHOTO-2025-07-12-02-58-14.jpg" }: { title: string, image?: string }) {
   return (
     <div
       className="hero min-h-[60vh] md:min-h-[50vh]"
