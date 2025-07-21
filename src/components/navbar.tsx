@@ -15,14 +15,7 @@ function Navbar() {
           <li>
             <Link href={"/whoarewe"}>About Us</Link>
           </li>
-          <li>
-            <a>Parent</a>
-            <ul className="p-2">
-              <li><a>Submenu 1</a></li>
-              <li><a>Submenu 2</a></li>
-            </ul>
-          </li>
-          <li><a>Item 3</a></li>
+          <li> <Link href={"/contact"}>Contact</Link></li>
         </ul>
       </div>
       <Link href={"/"} className="btn btn-ghost text-xl">Comfort</Link>
@@ -30,7 +23,7 @@ function Navbar() {
     <div className="navbar-center hidden lg:flex">
       <ul className="menu menu-horizontal px-1">
         <li> <Link href={"/whoarewe"}>About Us</Link></li>
-        <li> <Link href={"/news"}>News</Link></li>
+        {/* <li> <Link href={"/news"}>News</Link></li> */}
         <li> <Link href={"/contact"}>Contact</Link></li>
       </ul>
     </div>

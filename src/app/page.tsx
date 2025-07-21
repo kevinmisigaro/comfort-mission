@@ -110,12 +110,12 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="p-10 md:p-20">
+      {/* <div className="p-10 md:p-20">
         <div className="underline [text-decoration-color:#531f59] text-3xl text-[#531f59] font-bold mb-4">
           Latest News
         </div>
         <LatestNews />
-      </div>
+      </div> */}
 
       <div className="p-20 text-center mb-10 flex flex-col md:flex-row">
         <div
