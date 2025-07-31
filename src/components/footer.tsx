@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <>
-    <footer className="footer sm:footer-horizontal bg-base-200 text-base-content p-10">
+    {/* <footer className="footer sm:footer-horizontal bg-base-200 text-base-content p-10">
       <aside>
         <svg
           width="50"
@@ -42,7 +42,7 @@ function Footer() {
         <a className="link link-hover">Privacy policy</a>
         <a className="link link-hover">Cookie policy</a>
       </nav>
-    </footer>
+    </footer> */}
     <div className="footer sm:footer-horizontal bg-neutral text-neutral-content items-center p-4">
     <aside className="grid-flow-col items-center">
       <svg
