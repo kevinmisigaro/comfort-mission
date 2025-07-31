@@ -1,4 +1,3 @@
-import LatestNews from "@/components/LatestNews";
 import Link from "next/link";
 
 export default function Home() {
