@@ -5,7 +5,7 @@ function Page() {
   return (
     <div>
       <HeroSection title="Who we are" />
-      <div className="py-10 px-48 w-full">
+      <div className="py-10 px-5 md:px-48 w-full">
         <p className="text-2xl text-justify">
           Comfort Mission International Ministry is a non-profit organization,
           formed in Arizona, USA. It is exempt from federal income tax under

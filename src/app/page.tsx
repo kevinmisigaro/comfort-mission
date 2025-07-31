@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <div
-        className="hero min-h-[80vh]"
+        className="hero min-h-[50vh] md:min-h-[80vh]"
         style={{
           backgroundImage: "url(/new/PHOTO-2025-07-12-03-48-39.jpg)",
         }}
@@ -23,7 +23,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="p-28 text-center">
+      <div className="px-5 py-20 md:p-28 text-center">
         <div className="text-3xl mb-10">
           We want to demonstrate the love of God to the world by sharing the
           Gospel,
@@ -117,7 +117,7 @@ export default function Home() {
         <LatestNews />
       </div> */}
 
-      <div className="p-20 text-center mb-10 flex flex-col md:flex-row">
+      <div className="px-5 md:p-20 text-center mb-10 flex flex-col md:flex-row">
         <div
           className="basis-1/2 h-[50vh] bg-top"
           style={{
